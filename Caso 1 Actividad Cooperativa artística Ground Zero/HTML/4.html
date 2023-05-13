@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="C:\Users\j98fu\Downloads\Caso 1 Actividad Cooperativa artística Ground Zero-20230331T011935Z-001\Caso 1 Actividad Cooperativa artística Ground Zero\CSS\estilopag4.css" rel="stylesheet">
+    <title>Formulario</title>   
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="nav fixed-top">
+                <a href="#" class="logo nav-link2   " aria-label="Logo de la cooperativa">
+                    <img src="C:\Users\j98fu\Downloads\Caso 1 Actividad Cooperativa artística Ground Zero-20230331T011935Z-001\Caso 1 Actividad Cooperativa artística Ground Zero\IMG\4f7f831d8b2b9be55ab2366eaaf32f77.jpeg" title="logo">
+                </a>
+                <button class="nav-toggle" aria-label="Abrir menú">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-menu nav-menu_visible">
+                    <li class="nav-menu-item">
+                        <a href="C:\Users\j98fu\Downloads\Caso 1 Actividad Cooperativa artística Ground Zero-20230331T011935Z-001\Caso 1 Actividad Cooperativa artística Ground Zero\HTML\1.html" class="nav-menu-link nav-link2 nav-menu-link_active">Inicio</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="C:\Users\j98fu\Downloads\Caso 1 Actividad Cooperativa artística Ground Zero-20230331T011935Z-001\Caso 1 Actividad Cooperativa artística Ground Zero\HTML\2.html" class="nav-menu-link nav-link2 nav-menu-link_active">Misión</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="C:\Users\j98fu\Downloads\Caso 1 Actividad Cooperativa artística Ground Zero-20230331T011935Z-001\Caso 1 Actividad Cooperativa artística Ground Zero\HTML\3.html" class="nav-menu-link nav-link2 nav-menu-link_active">Galería</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="C:\Users\j98fu\Downloads\Caso 1 Actividad Cooperativa artística Ground Zero-20230331T011935Z-001\Caso 1 Actividad Cooperativa artística Ground Zero\HTML\4.html" class="nav-menu-link nav-link2 nav-menu-link_active">Formulario</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="C:\Users\j98fu\Downloads\Caso 1 Actividad Cooperativa artística Ground Zero-20230331T011935Z-001\Caso 1 Actividad Cooperativa artística Ground Zero\HTML\5.html" class="nav-menu-link nav-link2 nav-menu-link_active">Mapa</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form class="cform" id="formulario">
+        <label for="nombres">Nombres: </label>
+        <input type="text" id="nombres" name="nombres" minlength="3" maxlength="20" required><br>
+        <label for="ap">Apelido Paterno: </label>
+        <input type="text" id="ap" name="apellidopaterno" minlength="3" maxlength="20" required><br>
+        <label for="am">Apellido Materno: </label>
+        <input type="text" id="am" name="apellidomaterno" minlength="3" maxlength="20" required><br>
+        <label for="genero">Genero: </label>
+        <select id="genero" name="genero" required>
+            <option selected value="----">------------</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="nobinario">No Binario</option>
+            <option value="otro">Otro</option>
+        </select><br>   
+        <label for="rut">Rut:</label>
+        <input type="text" id="rut" name="rut" minlength="9" maxlength="10" required><br>
+        <label for="direction">Dirección: </label>
+        <input type="text" id="direction" name="direction" required><br>
+        <label for="email">Correo Electrónico: </label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Número de teléfono: </label>
+        <input type="phone" id="phone" name="phone" minlength="9" maxlength="12" required><br>
+        <input type="submit" id="enviar" name="submit" value="Enviar Formulario" onclick=" return enviarFormulario()">
+    </form>
+    <div class="footer-container">
+        <footer class="pie-pagina">
+            <div class="g1">
+                <div class="box">
+                    <figure>
+                        <img src="C:\Users\j98fu\Downloads\Caso 1 Actividad Cooperativa artística Ground Zero-20230331T011935Z-001\Caso 1 Actividad Cooperativa artística Ground Zero\IMG\4f7f831d8b2b9be55ab2366eaaf32f77.jpeg" alt="logo footer">
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Somos Grupo Cero, una cooperativa de artistas plásticos dedicados a la pintura, escultura, orfebrería, tejido y otras expresiones artísticas. En nuestro taller y sala de exhibición, creamos y compartimos obras únicas que reflejan nuestra pasión por el arte. Además, estamos comprometidos con la comunidad y la promoción del arte como herramienta para el cambio social. ¡Gracias por apoyar nuestro trabajo y ser parte de nuestra historia!</p>
+                </div>
+                <div class="box">
+                    <h2>SÍGUENOS</h2>
+                    <div class="redes-sociales">
+                        <a href="https://www.instagram.com/" target="_blank" title="Visítanos en Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        
+                        <a href="https://twitter.com/home" target="_blank" title="Síguenos en Twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        
+                        <a href="https://www.facebook.com/" target="_blank" title="Dale un Me Gusta a nuestra página de Facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com" target="_blank" title="Síguenos en Youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div> 
+                </div>    
+            </div>
+            <div class="g2">
+                <small>&copy;2023 <b>GROUND ZERO</b> - Copyright Derechos reservados.</small>
+            </div>
+        </footer>
+    </div>
+    <script defer src="C:\Users\j98fu\Downloads\Caso 1 Actividad Cooperativa artística Ground Zero-20230331T011935Z-001\Caso 1 Actividad Cooperativa artística Ground Zero\JS\4.js"></script>
+    <script src="https://kit.fontawesome.com/e7fb34b24b.js" crossorigin="anonymous"></script>
+</body>
+</html>
