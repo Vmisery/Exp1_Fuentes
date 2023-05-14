@@ -7,6 +7,7 @@
 body {
     font-family: sans-serif;
     padding-top: 80px;
+    background: #E5E5E5;
 }
 
 /* Estilo del menú opciones  */
@@ -25,7 +26,7 @@ body {
     justify-content: space-between;
 }
 
-.nav-link{
+.nav-link2{
     color: white;
     text-decoration: none;
 }
