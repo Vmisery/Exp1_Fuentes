@@ -53,7 +53,7 @@
                 <input type="text" class="formulario__input" id="ap" name="apellidopaterno" placeholder="Jay">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
-            <p class="formulario__input-error">Los nombres sólo deben contener letras</p>
+            <p class="formulario__input-error">El apellido paterno sólo puede contener letras</p>
         </div>
         <div class="formulario__grupo" id="grupo__am">
             <label for="am" class="formulario__label">Apellido Materno: </label>
@@ -61,7 +61,7 @@
                 <input type="text" id="am"  class="formulario__input" name="apellidomaterno" placeholder="Simpson">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
-            <p class="formulario__input-error">Los nombres sólo deben contener letras</p>
+            <p class="formulario__input-error">El apellido materno solo puede contener letras</p>
         </div>
         <div class="formulario__grupo" id="grupo__genero">
             <label for="genero" class="formulario__label">Genero: </label>
@@ -75,7 +75,7 @@
                 </select>
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
-            <p class="formulario__input-error">Los nombres sólo deben contener letras</p>
+            <p class="formulario__input-error">El grupo</p>
         </div>  
         <div class="formulario__grupo" id="grupo__rut">
             <label for="rut" class="formulario__label">Rut:</label>
@@ -83,7 +83,7 @@
                 <input type="text" id="rut" name="rut" placeholder="19.878.057-k" class="formulario__input">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
-            <p class="formulario__input-error">Los nombres sólo deben contener letras</p>
+            <p class="formulario__input-error">El rut no puede contener carácteres especiales</p>
         </div>
         <div class="formulario__grupo" id="grupo__direccion">
             <label for="direccion" class="formulario__label">Dirección: </label>
@@ -91,7 +91,7 @@
                 <input type="text" id="direccion" name="direccion" placeholder="SiempreViva 742" class="formulario__input">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
-            <p class="formulario__input-error">Los nombres sólo deben contener letras</p>
+            <p class="formulario__input-error">La direccion solo puede contener letras y números</p>
         </div>
         <div class="formulario__grupo" id="grupo__email">
             <label for="email" class="formulario__label">Correo Electrónico: </label>
@@ -99,6 +99,8 @@
                 <input type="email" id="email" name="email" placeholder="correo@duocuc.cl" class="formulario__input">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
+            <p class="formulario__input-error">El email necesita llevar un @</p>
+
         </div>
         <div class="formulario__grupo" id="grupo__phone">
             <label for="phone" class="formulario__label">Número de teléfono: </label>
@@ -106,13 +108,15 @@
                 <input type="phone" id="phone" name="phone" placeholder="+56964144145" class="formulario__input">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
+            <p class="formulario__input-error">El número solo puede contener números</p>
+
         </div>
-        <div class="formulario__grupo formulario__grupo-terminos" id="grupo__terminos">
+        <!--  <div class="formulario__grupo formulario__grupo-terminos" id="grupo__terminos">
             <label class="formulario__label">
                 <input type="checkbox" class="formulario__checkbox" name="terminos" id="terminos" class="formulario__input">
                 Acepto los terminos y condiciones
             </label>
-        </div>
+        </div>-->
         <div class="formulario__mensaje" id="formulario__mensaje">
             <p><i class="fa-solid fa-triangle-exclamation"></i> <b>Error:</b> Por favor, rellene el formulario correctamente.</p>
         </div>

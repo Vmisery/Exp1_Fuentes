@@ -93,8 +93,7 @@ inputs.forEach((input) => {
 
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
-    const terminos = document.getElementById('terminos');
-    if(campos.nombres && campos.ap && campos.am && campos.rut && campos.direccion && campos.email && campos.phone && terminos.checked ){
+    if(campos.nombres && campos.ap && campos.am && campos.rut && campos.direccion && campos.email && campos.phone){
         formulario.reset();
         Object.entries(campos).forEach(([key, val]) => {
             campos[key] = false;
